@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+
+header {
+    height: 450px;
+    background-image: url("./../imgs/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+    line-height: 1;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    margin: 50px; 
+}
+
+p {
+    margin: 15px;
+    color: white;
+    font-size: 1em;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 2px solid gray;
+    padding: 10px 30px;
+    background: black;
+    margin: 10px;
+}
+
+.btn:hover {
+    color: black;
+    background: gray;
+}
+
+#section-1 {
+    background-color: grey;
+    height: 200px;
+    margin: 0;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    padding: 30px;
+}
+
+#section-1 {
+    padding-left: 200px;
+    width: 100%;
+}
+
+.wrapper {
+    width: 80%;
+}
+
+#section-1 p {
+    columns: 2;
+    color: black;
+    padding: 0 50px;
+    text-align: justify;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+}
+
+#section-2 {
+   padding-left: 225px;
+}
+.parent {
+    display: inline-block;
+    /* border: 5px solid green; */
+    font-size: 0;
+    vertical-align: middle;
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    margin: 20px;
+}
+
+img {
+    float: top;
+    width: 240px;
+}
+
+.child {
+    /* border: 5px solid red; */
+    display: inline-block;
+    width: 250px;
+    font-size: 14px;
+    color: black;
+}
+
+.child-color {
+    color: black;
+}
+
+#section-3 {
+    width: 100%;
+    background-color: white;
+    padding-left: 200px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+#section-3 h3 {
+    padding-top: 30px;
+}
+#section-3 p {
+    color: black;
+    padding: 0 50px;
+    text-align: justify;
+    margin: 0;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.wrapp {
+    width: 80%;
+}
+
+#section-4 {
+    columns: 2;
+    background-color: gray;
+   
+}
+
+#section-4 .box:first-child {
+    background-color: blue;
+}
+
+.box h2 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.box p {
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    columns: 2;
+}
+
+footer h3 {
+    color: white;
+    padding: 20px;
+}
+
+footer p {
+    color: white;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
